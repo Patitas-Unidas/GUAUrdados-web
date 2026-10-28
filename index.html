@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>GUAUrdados - Descarga la App Móvil</title>
+  <meta name="description" content="Descarga la aplicación oficial de GUAUrdados. Cuidado, rescate y protección para nuestros perritos.">
+  
+  <!-- Tipografía Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@400;600;700&family=Nunito:wght@400;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+  <!-- Font Awesome para íconos -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+  </head>
+<body>
+
+  <!-- Barra de navegación -->
+  <header class="navbar">
+    <div class="container nav-container">
+      <div class="brand-logo">
+        <!-- Logo redondo de GUAUrdados -->
+        <img src="imagotipo.png" alt="Logo GUAUrdados" class="brand-logo">
+        <span class="brand-title brand-font"><span class="guau">GUAU</span><span class="rdados">rdados</span></span>
+      </div>
+      <a href="#descarga" class="nav-btn">
+        <i class="fa-solid fa-download"></i>
+        <span>Descargar</span>
+      </a>
+    </div>
+  </header>
+
+  <!-- Hero Section -->
+  <main class="container">
+    <section class="hero" id="descarga">
+      <div class="hero-badge">
+        <i class="fa-solid fa-heart" style="color: var(--color-title);"></i>
+        Iniciativa por el bienestar canino
+      </div>
+      
+      <h1 class="hero-title">Amor y protección en la palma de tu mano</h1>
+      <p class="hero-description">
+        GUAUrdados es la iniciativa dedicada a la identificación, coordinación de ayuda comunitaria y cuidado de perritos. Conecta con otros voluntarios y dale una patita a quienes más lo necesitan.
+      </p>
+
+      <!-- Tarjeta Principal de Descarga -->
+      <div class="hero-card">
+        <!-- Configura el atributo href con la ruta relativa de tu archivo .apk (ejemplo: app-release.apk) -->
+        <a href="app-release.apk" download class="download-btn" id="btn-apk">
+          <i class="fa-brands fa-android"></i>
+          <span>Descargar APK Ahora</span>
+        </a>
+
+        <div class="download-meta">
+          <span><i class="fa-solid fa-code-branch"></i> v1.0.0</span>
+          <span>•</span>
+          <span><i class="fa-solid fa-file-shield"></i> Seguro y libre de anuncios</span>
+          <span>•</span>
+          <span><i class="fa-solid fa-robot"></i> Android 7.0+</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- Sección de Ayuda e Instalación -->
+    <section class="install-section" id="ayuda">
+      <div class="section-header">
+        <h2>¿Tienes problemas con la instalación?</h2>
+        <p>Al descargar la aplicación fuera de Google Play Store, Android te pedirá unos sencillos permisos de seguridad:</p>
+      </div>
+
+      <!-- Pasos explicativos -->
+      <div class="steps-grid">
+        <div class="step-card">
+          <div class="step-number">1</div>
+          <h3>Descarga el archivo</h3>
+          <p>Presiona el botón de <strong>Descargar APK</strong> arriba. Si tu navegador te pregunta si deseas guardar el archivo, presiona <strong>"Descargar de todos modos"</strong>.</p>
+        </div>
+
+        <div class="step-card">
+          <div class="step-number">2</div>
+          <h3>Autoriza a tu navegador</h3>
+          <p>Al abrir el archivo, si tu celular muestra un aviso de <em>"Fuentes desconocidas"</em>, toca en <strong>Configuración</strong> y activa la casilla <strong>"Permitir desde esta fuente"</strong>.</p>
+        </div>
+
+        <div class="step-card">
+          <div class="step-number">3</div>
+          <h3>Completa la instalación</h3>
+          <p>Vuelve atrás, presiona el botón <strong>Instalar</strong> y ¡listo! Ya puedes abrir <strong>GUAUrdados</strong> y comenzar a ser parte de la comunidad.</p>
+        </div>
+      </div>
+
+      <!-- Solución de advertencias frecuentes -->
+      <div class="faq-box">
+        <h3 class="faq-title">
+          <i class="fa-solid fa-circle-question" style="color: var(--color-title);"></i>
+          Preguntas y advertencias comunes en Android
+        </h3>
+
+        <div class="faq-item">
+          <h4><i class="fa-solid fa-triangle-exclamation"></i> "¿Archivo potencialmente dañino?"</h4>
+          <p>Es una alerta estándar que muestra Android para cualquier aplicación instalada de forma directa mediante un archivo APK (.apk). Nuestra aplicación es 100% segura y no contiene código malicioso.</p>
+        </div>
+
+        <div class="faq-item">
+          <h4><i class="fa-solid fa-shield-halved"></i> ¿Aviso de Play Protect?</h4>
+          <p>Si Google Play Protect te muestra una alerta, presiona en <strong>"Más detalles"</strong> y luego selecciona <strong>"Instalar de todas formas"</strong>.</p>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer>
+    <div class="container">
+      <div class="footer-logo brand-font">
+        <span class="guau">GUAU</span><span class="rdados">rdados</span> 🐾
+      </div>
+      <p class="footer-text">Hecho con amor y dedicación para el bienestar animal.</p>
+    </div>
+  </footer>
+
+</body>
+</html>
